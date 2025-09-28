@@ -1,0 +1,5 @@
+#Dynamic perimeter of rectangle=2*(l*b)
+l=float(input("ENTER THE LENGTH: "))
+b=float(input("ENTER THE BREATH: "))
+p=2*(l*b)
+print("THE PERIMETR OF RECTANGLE IS %.3f"%p)
