@@ -1,0 +1,1 @@
+print([ele**2 for ele in range (1,11)])
