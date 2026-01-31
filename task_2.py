@@ -1,5 +1,10 @@
-for i in range(5,0,-1):
-    for j in range(1,i+1):
-        print("💟",end="")
-    print("\r")
-    
+"""Positive / Negative / Zero
+Input a number
+Identify its type"""
+num=int(input("enter a number: "))
+if num>0:
+    print(num,"is a positive number")
+elif num<0:
+    print(num,"is a negative number")
+else:
+    print(num,"is a not positive or negative number")
